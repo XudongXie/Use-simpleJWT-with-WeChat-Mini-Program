@@ -19,6 +19,4 @@ To use simplejwt tokens, we need to deal with 3 cases:
 
 3. Generate new tokens (access_token,refresh_token) for exsiting user in case the user's refresh_token is also expeired.
 
-
-
-almost every request made to backend, you need to take good care of these Tokens, so I put it into a single js for refrence.
+Almost every request made to backend, you need to take good care of these Tokens, so I put it into a single js. one thing more is that wx.request method is asynchronous, I wraped the functions as a Promise.
