@@ -1,15 +1,9 @@
 # Use-simpleJWT-with-WeChat-Mini-Program
 Python Django and WeChat Mini Program
 
-Recently, I am doing a project with Python/Django for backend to support WeChat Mini Program as front end. I am using this to record
-
-something might be valuable to share here. So...
-
-
+Recently, I am doing a project with Python/Django for backend to support WeChat Mini Program as front end. I am here to record those might be valuable to share. So...
 
 Tokens:
-
-
 
 To use simplejwt tokens, we need to deal with 3 cases:
 
