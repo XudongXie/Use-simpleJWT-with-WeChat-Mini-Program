@@ -82,7 +82,8 @@ function obtaintokenpair(wxuserinfo) {
       var that = this
       wx.request(
         {
-          url: that.data.wxuserlogin,          data:
+          url: that.data.wxuserlogin,          
+          data:
           {
             openid: userinfo.openid
           },
