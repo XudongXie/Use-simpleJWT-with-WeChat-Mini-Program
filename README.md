@@ -9,9 +9,9 @@ To use simplejwt tokens, we need to deal with 3 cases:
 
 1. Generate new tokens (access_token,refresh_token) for new user.
 
-2. Using refresh_token to refresh a new access_token for an exsiting user.
+2. Use refresh_token to refresh a new access_token for an exsiting user.
 
-3. Generate new tokens (access_token,refresh_token) for exsiting user in case the user's refresh_token is also expeired.
+3. Generate new tokens (access_token,refresh_token) for exsiting user in case the user's refresh_token was also expeired.
 
 Almost every request made to backend, you need to take good care of these Tokens, so I put it into a single js file and exported them to outside call. 
 
